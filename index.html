@@ -6,300 +6,144 @@
   <title>Muda o Teu Corpo em 30 Dias | Ian Oliveira Rodrigues</title>
   <meta name="description" content="Programa de treino personalizado com o personal trainer Ian Oliveira Rodrigues, focado em resultados reais, acompanhamento próximo e planos adaptados à tua rotina.">
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Umami Analytics -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="d1003443-352c-423d-977b-4b452123f2b6"></script>
 </head>
+
 <body>
   <div class="page">
+
     <!-- HEADER -->
     <header class="header">
-      <div class="logo">
-        <div class="logo__mark">IO</div>
-        <div class="logo__text">
-          <div class="logo__name">Ian Oliveira Rodrigues</div>
-          <div class="logo__subtitle">Personal Trainer Certificado</div>
-        </div>
+      <div class="container header__container">
+        <div class="header__logo">IAN OLIVEIRA</div>
+        <nav class="header__nav">
+          <a href="#programa" class="nav__link">Programa</a>
+          <a href="#beneficios" class="nav__link">Benefícios</a>
+          <a href="#resultados" class="nav__link">Resultados</a>
+          <a href="#faq" class="nav__link">FAQ</a>
+        </nav>
       </div>
-
-      <nav class="nav">
-        <a href="#como-funciona" class="nav__link">Como funciona</a>
-        <a href="#resultados" class="nav__link">Resultados</a>
-        <a href="#faq" class="nav__link">Dúvidas</a>
-        <a href="#comecar" class="nav__cta">Começar agora</a>
-      </nav>
     </header>
 
-    <main>
-      <!-- HERO -->
-      <section class="hero" id="topo">
-        <div class="hero__content">
-          <div class="hero__badge">
-            <span class="hero__badge-label">Programa de mudança de vida</span>
-            <span class="hero__badge-pill">Vagas limitadas este mês</span>
-          </div>
-
-          <h1 class="hero__title">
-            Muda o teu corpo em <span>30 dias</span>, treinando 3x por semana.
-          </h1>
-
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero__container">
+        <div class="hero__text">
+          <h1 class="hero__title">Transforma o Teu Corpo em 30 Dias</h1>
           <p class="hero__subtitle">
-            Treino personalizado, acompanhamento próximo e um plano desenhado à tua realidade — para quem quer resultado sem viver no ginásio.
+            Programa exclusivo de treino personalizado para quem quer resultados rápidos, saúde e bem-estar.
           </p>
 
-          <div class="hero__metrics">
-            <div class="metric">
-              <strong>120+</strong>
-              <span>alunos acompanhados</span>
-            </div>
-            <div class="metric">
-              <strong>8,7 kg</strong>
-              <span>média perdida em 12 semanas*</span>
-            </div>
-            <div class="metric">
-              <strong>4.9 ★</strong>
-              <span>avaliação dos alunos</span>
-            </div>
-          </div>
-
-          <div class="hero__actions" id="comecar">
-            <a
-              class="btn btn--primary"
-              href="https://wa.me/351935305061?text=Quero%20come%C3%A7ar%20o%20programa%20de%20treino"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Quero mudar agora
-              <span class="btn__sub">Fala comigo pelo WhatsApp</span>
-            </a>
-
-            <a class="btn btn--ghost" href="#como-funciona">
-              Ver como funciona passo a passo
-            </a>
-          </div>
-
-          <p class="hero__note">
-            <span class="hero__status-dot"></span>
-            Lugares limitados para garantir acompanhamento próximo.
-          </p>
-        </div>
-
-        <aside class="hero__aside" aria-label="Resultados e enquadramento">
-          <article class="card card--highlight">
-            <h2 class="card__kicker">Resultados reais</h2>
-            <h3 class="card__title">Ana, 32 anos</h3>
-            <p class="card__text">
-              3 meses de acompanhamento online, treinos em casa e pequenos ajustes de hábitos diários.
-            </p>
-
-            <div class="ba-grid">
-              <div class="ba">
-                <div class="ba__label">Antes</div>
-                <div class="ba__value">+9,2 kg</div>
-                <div class="ba__desc">Cansada e sem rotina</div>
-              </div>
-              <div class="ba">
-                <div class="ba__label">Depois</div>
-                <div class="ba__value ba__value--positive">−8,5 kg</div>
-                <div class="ba__desc ba__desc--positive">Mais energia e confiança</div>
-              </div>
-            </div>
-
-            <p class="card__disclaimer">
-              *Resultados variam de pessoa para pessoa. Este é um exemplo real.
-            </p>
-          </article>
-
-          <article class="card">
-            <h2 class="card__kicker">Para quem é</h2>
-            <h3 class="card__title">Este programa é para ti se...</h3>
-            <div class="pill-list">
-              <span class="pill">Tens pouco tempo para treinar</span>
-              <span class="pill">Já tentaste treinar sozinho</span>
-              <span class="pill">Queres emagrecer com segurança</span>
-              <span class="pill">Queres ganhar massa muscular</span>
-              <span class="pill">Estás a começar do zero</span>
-              <span class="pill">Tens rotina apertada de trabalho</span>
-            </div>
-          </article>
-        </aside>
-      </section>
-
-      <!-- BENEFÍCIOS -->
-      <section class="section" id="beneficios">
-        <header class="section__header">
-          <p class="section__kicker">Porquê este programa</p>
-          <h2 class="section__title">Mais do que treino. É uma mudança de estilo de vida.</h2>
-          <p class="section__subtitle">
-            O objetivo não é treinar mais, é treinar com método, consistência e acompanhamento — sem planos genéricos de internet.
-          </p>
-        </header>
-
-        <div class="grid grid--3">
-          <article class="feature">
-            <h3 class="feature__title">Plano 100% personalizado</h3>
-            <p class="feature__text">
-              Treinos ajustados ao teu nível, ao local onde vais treinar (casa, ginásio ou parque) e ao tempo real que tens disponível.
-            </p>
-          </article>
-
-          <article class="feature">
-            <h3 class="feature__title">Acompanhamento próximo</h3>
-            <p class="feature__text">
-              Feedback semanal, ajustes de treino e contacto direto comigo para não deixares o plano pela metade.
-            </p>
-          </article>
-
-          <article class="feature">
-            <h3 class="feature__title">Foco em resultado</h3>
-            <p class="feature__text">
-              Metas por fase (4, 8 e 12 semanas), com métricas claras para acompanhar evolução, não apenas “treinar por treinar”.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <!-- COMO FUNCIONA -->
-      <section class="section" id="como-funciona">
-        <header class="section__header">
-          <p class="section__kicker">Passo a passo</p>
-          <h2 class="section__title">Como funciona na prática?</h2>
-          <p class="section__subtitle">
-            Processo simples, direto e desenhado para encaixar na tua rotina.
-          </p>
-        </header>
-
-        <div class="grid grid--3">
-          <article class="step">
-            <p class="step__label">Passo 1</p>
-            <h3 class="step__title">Falamos e alinhamo-nos</h3>
-            <p class="step__text">
-              Começamos com uma conversa rápida para perceber o teu objetivo, rotina, limitações e nível atual.
-            </p>
-          </article>
-
-          <article class="step">
-            <p class="step__label">Passo 2</p>
-            <h3 class="step__title">Desenho o teu plano</h3>
-            <p class="step__text">
-              Crio um plano de treino personalizado, com exercícios, séries, repetições e progressão pensados para ti.
-            </p>
-          </article>
-
-          <article class="step">
-            <p class="step__label">Passo 3</p>
-            <h3 class="step__title">Acompanhamento e ajustes</h3>
-            <p class="step__text">
-              Continuamos juntos: ajustes semanais, acompanhamento e suporte para garantirmos consistência e resultado.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <!-- RESULTADOS -->
-      <section class="section" id="resultados">
-        <header class="section__header">
-          <p class="section__kicker">Resultados</p>
-          <h2 class="section__title">Histórias de quem já começou.</h2>
-          <p class="section__subtitle">
-            Pessoas reais, com trabalho, família, pouco tempo — mas que decidiram mudar.
-          </p>
-        </header>
-
-        <div class="grid grid--3">
-          <article class="testimonial">
-            <h3 class="testimonial__name">Ricardo, 29 anos</h3>
-            <p class="testimonial__text">
-              “Trabalho por turnos e achava impossível ter uma rotina de treino. Hoje treino 3x por semana, durmo melhor e voltei a gostar do que vejo ao espelho.”
-            </p>
-            <span class="testimonial__badge">−6,3 kg em 8 semanas</span>
-          </article>
-
-          <article class="testimonial">
-            <h3 class="testimonial__name">Carla, 41 anos</h3>
-            <p class="testimonial__text">
-              “Não queria ginásio. Fizemos tudo com treino em casa e pequenas mudanças no dia a dia. Ganhei energia, disposição e menos dores.”
-            </p>
-            <span class="testimonial__badge">−4,7 kg e mais energia</span>
-          </article>
-
-          <article class="testimonial">
-            <h3 class="testimonial__name">João, 35 anos</h3>
-            <p class="testimonial__text">
-              “Já tinha seguido vários treinos soltos da internet. A diferença foi ter um plano feito para mim e alguém a acompanhar a minha evolução.”
-            </p>
-            <span class="testimonial__badge">+3,1 kg de massa magra</span>
-          </article>
-        </div>
-      </section>
-
-      <!-- FAQ -->
-      <section class="section" id="faq">
-        <header class="section__header">
-          <p class="section__kicker">Dúvidas frequentes</p>
-          <h2 class="section__title">Perguntas que recebo quase todos os dias.</h2>
-        </header>
-
-        <div class="faq">
-          <details class="faq__item">
-            <summary class="faq__question">Preciso de ginásio para fazer o programa?</summary>
-            <p class="faq__answer">
-              Não. Podemos montar o plano para ginásio, casa ou parque. Usamos o que tens: elásticos, halteres, garrafas de água ou apenas o peso do corpo.
-            </p>
-          </details>
-
-          <details class="faq__item">
-            <summary class="faq__question">Sou totalmente iniciante. É para mim?</summary>
-            <p class="faq__answer">
-              Sim. Adaptamos tudo ao teu nível. Começamos com técnica, base sólida e progressão gradual, para evitares lesões e ganhares confiança.
-            </p>
-          </details>
-
-          <details class="faq__item">
-            <summary class="faq__question">Como funciona o pagamento?</summary>
-            <p class="faq__answer">
-              Depois da nossa conversa e de eu perceber se o programa faz sentido para ti, explico valores, formas de pagamento e opções de duração (4, 8 ou 12 semanas).
-            </p>
-          </details>
-
-          <details class="faq__item">
-            <summary class="faq__question">O acompanhamento é todo online?</summary>
-            <p class="faq__answer">
-              Sim, o foco deste programa é o acompanhamento online, para que consigas encaixar o plano na tua vida, independentemente de onde estás.
-            </p>
-          </details>
-        </div>
-
-        <div class="cta-final">
-          <p class="cta-final__text">
-            Se ainda tens dúvidas, o próximo passo é simples: falamos pelo WhatsApp e eu explico se este programa é para ti.
-          </p>
           <a
             class="btn btn--primary"
-            href="https://wa.me/351935305061?text=Tenho%20d%C3%BAvidas%20sobre%20o%20programa%20de%20treino"
+            href="https://wa.me/351935305061?text=Quero%20come%C3%A7ar%20o%20programa%20de%20treino"
             target="_blank"
             rel="noopener noreferrer"
+            data-umami-event="whatsapp_quero_mudar"
           >
-            Falar com o Ian agora
+            Quero mudar agora
+            <span class="btn__sub">Fala comigo pelo WhatsApp</span>
           </a>
         </div>
-      </section>
-    </main>
 
-    <footer class="footer">
-      <span>© <span id="year"></span> Ian Oliveira Rodrigues. Todos os direitos reservados.</span>
-      <span>
-        Instagram:
+        <div class="hero__image">
+          <img src="images/hero.png" alt="Treino Personalizado Ian Oliveira" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMA -->
+    <section class="programa" id="programa">
+      <div class="container">
+        <h2 class="section__title">O Programa</h2>
+        <p class="section__subtitle">Treino criado para resultados reais.</p>
+
+        <div class="cards">
+          <div class="card">
+            <h3 class="card__title">Treino Personalizado</h3>
+            <p class="card__text">Plano de treino adaptado ao teu ritmo, rotina e objetivo.</p>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Acompanhamento Diário</h3>
+            <p class="card__text">Suporte no WhatsApp para manteres consistência.</p>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Resultados em 30 Dias</h3>
+            <p class="card__text">Evolução visível com foco nos teus objetivos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="beneficios" id="beneficios">
+      <div class="container">
+        <h2 class="section__title">Benefícios</h2>
+        <ul class="beneficios__lista">
+          <li>🔥 Perda de gordura eficiente</li>
+          <li>💪 Tonificação muscular</li>
+          <li>🏃‍♂️ Mais energia e disposição</li>
+          <li>🥗 Plano ajustado à tua rotina</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- RESULTADOS -->
+    <section class="resultados" id="resultados">
+      <div class="container">
+        <h2 class="section__title">Resultados dos Alunos</h2>
+        <div class="resultados__grid">
+          <img src="images/r1.png" alt="Resultado 1" />
+          <img src="images/r2.png" alt="Resultado 2" />
+          <img src="images/r3.png" alt="Resultado 3" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="section__title">Perguntas Frequentes</h2>
+
+        <details>
+          <summary>O programa funciona para iniciantes?</summary>
+          <p>Sim, totalmente adaptado ao teu nível atual.</p>
+        </details>
+
+        <details>
+          <summary>Preciso de algum equipamento?</summary>
+          <p>Podes treinar no ginásio ou em casa.</p>
+        </details>
+
+        <details>
+          <summary>Posso cancelar quando quiser?</summary>
+          <p>Sim, a qualquer momento.</p>
+        </details>
+
         <a
-          href="https://instagram.com/ian_oliiver"
+          class="btn btn--primary"
+          href="https://wa.me/351935305061?text=Tenho%20d%C3%BAvidas%20sobre%20o%20programa%20de%20treino"
           target="_blank"
           rel="noopener noreferrer"
+          data-umami-event="whatsapp_duvidas"
         >
-          @ian_oliiver
+          Quero tirar dúvidas
         </a>
-      </span>
-    </footer>
-  </div>
+      </div>
+    </section>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <p>© 2025 Ian Oliveira. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+  </div>
 </body>
 </html>
+
